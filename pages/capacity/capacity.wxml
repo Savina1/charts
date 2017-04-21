@@ -1,0 +1,14 @@
+<view class="capacity">
+    <view class="keyword">
+        <text>关键字</text>
+        <view class="keyword_content">
+            <text>未发现病症未发现病症未发现病症未发现病症未发现病症</text>
+        </view>
+    </view>
+    <view class="">
+        <view class="">
+            <image src="/image/1.jpg"></image>
+            <text>未发现病症未发现病症未发现病症</text>
+        </view>
+    </view>
+</view>

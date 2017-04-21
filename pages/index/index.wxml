@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <text bindtap="btnGraph">结果</text>
+    <view class="usermotto">
+      <text>{{user.tips}}</text>
+    </view>
+  </view>
+  <view class="userinfo">
+    <text class=""  bindtap="acatterMultiAxis">焦点</text>
+    <view class="usermotto">
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+    </view>
+  </view>
+  <view class="userinfo">
+    <text class="" bindtap="btnPie">回访计划</text>
+    <view class="usermotto">
+      <text>未发现病症</text>
+      <text>未发现病症</text>
+    </view>
+  </view>
+  <view class="userinfo">
+    <text class="" bindtap="overbtn">结果信息</text>
+    <view class="usermotto">
+      <view class="">
+        <text>姓名：</text>
+        <text>{{user.xm}}</text>
+      </view>
+      <view class="">
+        <text>年龄：</text>
+        <text>{{user.nl}}</text>
+      </view>
+      <view class="">
+        <text>getDate：</text>
+        <text>{{user.getDate}}</text>
+      </view>
+      <view class="">
+        <text>result1：</text>
+      <text>{{user.result1}}</text>
+      </view>
+      <view class="">
+        <text>检查科目：</text>
+        <text>{{user.project}}</text>
+      </view>
+      <view class="">
+        <text>医院：</text>
+        <text>{{user.ly}}</text>
+      </view>
+    </view>
+  </view>
+</view>

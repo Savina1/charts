@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/bar/index",
+    "pages/pie/index",
+    "pages/point-styles/index",
+    "pages/doughnut/index",
+    "pages/radar-skip-points/index",
+    "pages/line-multi-axis/index",
+    
+    "pages/scatter-multi-axis/index",
+    "pages/graph/graph",
+    "pages/logs/logs",
+    "pages/capacity/capacity",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "上海爱他基因",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#c92f77",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"image/tab-icon/tab_icon_unscramble_off.png",
+      "selectedIconPath":"image/tab-icon/tab_icon_unscramble_on.png",
+      "text": "解读"
+
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath":"image/tab-icon/tab_icon_community_off.png",
+      "selectedIconPath":"image/tab-icon/tab_icon_community_on.png",
+      "text": "社区"
+    }, {
+      "pagePath": "pages/capacity/capacity",
+      "iconPath":"image/tab-icon/tab_icon_push_off.png",
+      "selectedIconPath":"image/tab-icon/tab_icon_push_on.png",
+      "text": "智能推送"
+    }, {
+      "pagePath": "pages/about/about",
+      "iconPath":"image/tab-icon/tab_icon_mine_off.png",
+      "selectedIconPath":"image/tab-icon/tab_icon_mine_on .png",
+      "text": "我的"
+    }
+    ]
+  }
+}
